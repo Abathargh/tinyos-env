@@ -1,4 +1,4 @@
-## tinyos-env-images
+## tinyos-env
 
 A couple of different pre-built environments for building tinyos programs, I mainly use(d) them for practical lessons where I had to interface with a Shimmer2r.
 They are all available on my  [docker hub](https://hub.docker.com/r/abathargh/tinyos).
@@ -23,4 +23,4 @@ docker run --rm --privileged -it -v /path/to/tinyos:/tinyos abathargh/tinyos:<ta
 
 ### License
 
-These images are published unser MPL2, TinyOS is originally released under a BSD license that you can find [here](https://github.com/tinyos/tinyos-main/blob/master/licenses/bsd.txt).
+These images are published under MPL2, TinyOS is originally released under a BSD license that you can find [here](https://github.com/tinyos/tinyos-main/blob/master/licenses/bsd.txt).

@@ -19,6 +19,6 @@ RUN apt-get update && apt-get -y install nesc tinyos-tools-devel msp430-46
 WORKDIR /tinyos
 RUN git clone https://github.com/tinyos/tinyos-main . && \
     apt-get -y remove wget git && apt-get -y autoremove  
-
+RUN cd tools && ./Bootstrap && ./configure && make && make install
 
 CMD [""]
